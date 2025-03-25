@@ -61,7 +61,7 @@ div {
 }
 .face {
   margin: -2.5em;
-  width: 5em;
+  width: 7em;
   height: 5em;
   backface-visibility: hidden;
   background: currentColor;
@@ -86,7 +86,7 @@ div {
   -webkit-filter: brightness(1);
   filter: brightness(1);
 }
-.face:nth-child(3) {
+/* .face:nth-child(3) {
   transform: rotate3d(0, 1, 0, 0deg) translateZ(2.5em);
   -webkit-filter: brightness(0.85);
   filter: brightness(0.85);
@@ -95,4 +95,4 @@ div {
   transform: rotate3d(0, 1, 0, 90deg) translateZ(2.5em);
   -webkit-filter: brightness(0.55);
   filter: brightness(0.55);
-}
+} */
